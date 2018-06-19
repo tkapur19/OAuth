@@ -2,7 +2,7 @@
 
 var passport=require('passport');
 var GoogleStrategy=require('passport-google-oauth20').Strategy;
-var key=require('../Key/key');
+var key=require('../Keys/key');
 var User=require('../models/user');
 
 passport.serializeUser(function (user,done) {
