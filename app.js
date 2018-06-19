@@ -12,7 +12,7 @@ var usersRouter = require('./routes/users');
 var auth=require('./routes/Auth');
 var profile=require('./routes/profile');
 
-var keys=require('./Key/keys');
+var keys=require('./Key/key');
 
 
 var app = express();
